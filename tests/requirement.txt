@@ -1,0 +1,8 @@
+# Selenium WebDriver for browser automation
+selenium==3.141.0
+
+# Chrome WebDriver manager for automatic setup
+webdriver-manager==5.0.3
+
+# Pytest for testing framework
+pytest==7.1.2
