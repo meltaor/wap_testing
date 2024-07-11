@@ -1,4 +1,7 @@
-# WAP Testing with Selenium
+# WAP Testing for Twitch
+
+## Introduction
+This repository contains scripts and instructions for conducting WAP (Web Application Performance) testing for Twitch using Selenium.
 
 ## Prerequisites
 - Google Chrome
