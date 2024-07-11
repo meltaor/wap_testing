@@ -17,6 +17,7 @@
 - `tests/`: Contains all test scripts and related files.
 - `test/screenshots/`: Stores screenshots captured during test execution.
 - `test/animations/`: Stores gift showing the test running locally.
+- `test/__pycache__/`: python cache from previous execution.
 - `test/requirement.txt`: Dependencies that needs to be install before executing test file..
 - `README.md`: Documentation file providing an overview of the project and instructions for running tests.
 
