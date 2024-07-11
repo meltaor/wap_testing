@@ -33,10 +33,6 @@ def test_twitch_streamer(driver):
     5. Scroll down 2 times
     6. Select the first streamer from the search results
     7. Take a screenshot
-
-    Notes:
-    - Some streamers may have a modal or pop-up before loading the video.
-    - Ensure the test runs using the mobile emulator from Google Chrome.
     """
     driver.get("https://m.twitch.tv/")  # Mobile site URL
 
@@ -78,7 +74,7 @@ def test_twitch_streamer(driver):
 
     # Take a screenshot
     time.sleep(5)  # Wait for the page to load
-    driver.save_screenshot("tests/streamer_page.png")
+    driver.save_screenshot("tests/screenshots/streamer_page.png")
 
 # Ensure the test runs with pytest when executed directly
 if __name__ == "__main__":
